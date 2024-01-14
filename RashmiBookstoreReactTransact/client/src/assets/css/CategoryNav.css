@@ -1,0 +1,89 @@
+
+/*.navigation-bar-container{*/
+/*    display:flex;*/
+/*    background-color: #B4D47E;*/
+/*}*/
+
+
+
+/*.navigation-list {*/
+/*    list-style: none;*/
+/*    text-align: center;*/
+/*    padding: 0;*/
+/*    !*color:#B4D47E;*!*/
+/*    color:whitesmoke;*/
+/*    font-family: 'Battambang';*/
+/*}*/
+
+/*!* Style the navigation list items *!*/
+/*.navigation-list li {*/
+/*    display: inline;*/
+/*    margin-right: 100px;*/
+/*}*/
+
+/*!* Style the navigation links *!*/
+/*.navigation-list li a {*/
+/*    text-decoration: none;*/
+/*    color:whitesmoke;*/
+/*    font-weight: bold;*/
+/*    transition: color 0.3s;*/
+/*}*/
+
+/*!* Change link color on hover *!*/
+/*.navigation-list li a:hover {*/
+/*    color:#0958A0;*/
+/*}*/
+
+/*.selected-button a {*/
+/*    text-decoration: none;*/
+/*    color: #fff;*/
+/*    background-color:#CE4375 ;*/
+/*    padding: 9px 18px;*/
+/*    border-radius: 5px;*/
+/*    font-weight: bold;*/
+/*    transition: background-color 0.3s;*/
+/*}*/
+.navigation-bar-container {
+    display: flex;
+    background-color: #B4D47E;
+    justify-content: center;
+    /*padding: 10px;*/
+}
+
+.navigation-list {
+    list-style: none;
+    text-align: left;
+    padding: 0;
+}
+
+.navigation-list li {
+    display: inline;
+    /*margin-right: 20px;*/
+    margin-right: 120px;/* Adjust spacing between list items */
+}
+
+.navigation-list li a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: bold;
+    transition: color 0.3s;
+    font-family: 'Battambang';
+}
+
+.navigation-list li a:hover {
+    color: #0958A0;
+    text-decoration: none;
+    transition: color 0.1s;
+
+}
+
+.selected-button a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #CE4375;
+    padding: 9px 18px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+

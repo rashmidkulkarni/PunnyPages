@@ -1,0 +1,58 @@
+.container-book-images{
+    display: flex;
+    flex-direction: row;
+    /* border:1px solid red; */
+    gap:5em;
+    row-gap: 48.5px;
+    flex-wrap: wrap;
+    left:100px;
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); */
+    width:900px;
+
+}
+
+
+.container-book-images p{
+    font-family: 'Battambang';font-size: 18px;
+    color: #CE4375;
+    font-weight: bold;
+    padding: 1px;
+}
+
+.text-cta p {
+    font-family: 'Battambang';
+    font-size: 19px;
+    color: #092BA0;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    top: 200px;
+    padding: 10px 20px;
+}
+
+
+
+
+.text-cta p{
+    font-family: 'Battambang';font-size: 19px;
+    color:#092BA0;
+    font-weight: bold;
+    text-align: center;
+    position:relative;
+    top:200px;
+    padding: 10px 20px;
+
+}
+
+.CTA{
+    font-family: 'Battambang';font-size: 20px;
+    color: white;
+    background-color: #CE4375;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border:none;
+    position:relative;
+    top:200px;
+    left:350px;
+}
+

@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css?family=Cherry Bomb");
+@import url("https://fonts.googleapis.com/css?family=Battambang");
+
+footer {
+    background:#B4D47E;
+    display: flex;
+    gap: 1em;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* .links,
+.social-media-icons {
+  display: flex;
+  flex-direction: column;
+}
+
+.social-media-icons {
+  text-align: center;
+  gap: 0.25em;
+} */
+
+
+.contact-us-directions{
+    display:flex;
+    flex-direction: row;
+    /* border:1px solid red; */
+}
+
+.contact-us-directions p{
+    font-family: 'Battambang',cursive;font-size: 18px;
+    color: white;
+    padding:8px;
+    cursor : pointer;
+}
+
+.social-media-icons{
+    display:flex;
+    flex-direction: row;
+    /* border:1px solid red; */
+    gap:2em;
+    justify-content: center;
+    padding: 2px;
+    cursor : pointer;
+}
+
+
+.copyright-text p{
+    font-family: 'arial';font-size: 5px;
+    color: white;
+}
+
+.social-media-icons-copyright{
+    display:flex;
+    flex-direction: column;
+    /*border:1px solid red;*/
+    justify-content: space-between;
+}
+
+.copyright{
+    display:flex;
+    /*border:1px solid red;*/
+    flex-direction: row;
+}
+
+
+
+
+
+
+
+/*footer {*/
+/*    background: var(--secondary-background-color);*/
+/*    display: flex;*/
+/*    gap: 1em;*/
+/*}*/
+
+/*.links,*/
+/*.social-media-icons {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*}*/
+
+/*.social-media-icons {*/
+/*    text-align: center;*/
+/*    gap: 0.25em;*/
+/*}*/
+

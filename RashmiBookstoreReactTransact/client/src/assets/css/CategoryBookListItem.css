@@ -1,0 +1,120 @@
+/*.apply{*/
+/*    display:flex;*/
+/*    flex-direction: row;*/
+/*    background-color:whitesmoke;*/
+/*    border:1px solid red;*/
+/*}*/
+
+
+.total-container{
+    display:flex;
+    flex-direction: row;
+    /* border:1px solid red; */
+    justify-content: space-between;
+    background-color:whitesmoke;
+    background-size :cover;
+
+}
+
+
+.category-books {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 12px;
+    column-gap: 10px;
+    width : 200px;
+
+}
+.first-row{
+    display:flex;
+    flex-direction: row;
+    gap:20em;
+    padding: 2px;
+    align-items: flex-start;
+    height: 220px;
+    flex-wrap: wrap;
+
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+}
+
+.first-row a{
+    padding: 2px;
+    /* box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); */
+
+}
+/*.second-row{*/
+/*    display:flex;*/
+/*    flex-direction: row;*/
+/*    gap:18.5em;*/
+/*    !* border:1px solid red; *!*/
+/*    padding: 2px;*/
+/*    align-items: flex-start;*/
+/*    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);*/
+/*    height: 208px;*/
+/*}*/
+
+.books{
+    display: flex;
+    flex-direction: row;
+}
+
+.add-to-cart-button{
+    font-family: 'Battambang';font-size: 15px;
+    color: white;
+    background-color: #CE4375;
+    padding: 10px 20px;
+    border-radius: 25px;
+    border:none;
+    cursor : pointer;
+
+    /* cursor: pointer; */
+}
+
+.add-to-cart-button{
+    background-color: #CE4375;
+    padding: 5px 10px;
+    border-radius: 25px;
+    border:none;
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+.add-to-cart-button:hover{
+    background-color: #e06d6b;
+}
+
+
+.read-now{
+    font-family: 'Battambang';
+    color:white;
+    background-color: #7CB5E9;
+    padding: 5px 10px;
+    border-radius: 25px;
+    border:none;
+}
+
+
+
+
+
+
+
+
+
+
+/*.book-box {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    background-color: var(--card-background-color);*/
+/*    padding: 1em;*/
+/*    gap: 0.25em;*/
+/*}*/
+
+/*.book-title {*/
+/*    font-weight: bold;*/
+/*}*/
+
+/*.book-author {*/
+/*    font-style: italic;*/
+/*}*/

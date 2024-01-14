@@ -1,0 +1,9 @@
+
+.book-lists {
+    background-image: url('../images/site/background-image.jpg');
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 1em;
+    margin: 0;
+}

@@ -1,0 +1,108 @@
+
+/* .confirmation_table {*/
+/*            border: 1px black solid;*/
+/*            width: fit-content;*/
+/*            margin-top: 1em;*/
+/*            margin-bottom: 1em;*/
+/*        }*/
+
+/*.confirmation_td {*/
+/*        display: table-cell;*/
+/*        padding: 0.5em 0.5em;*/
+/*        background-color: white;*/
+/*        vertical-align: middle;*/
+/*}*/
+/* .confirmation_tr:nth-child(even) > td {*/
+/*        background-color: lightgray;*/
+/* }*/
+/* .confirmation_td:nth-child(1) {*/
+/*       text-align: left;*/
+/* }*/
+
+/*.confirmation_td:nth-child(2) {*/
+/*       text-align: center;*/
+/*}*/
+/* .confirmation_td:nth-child(3) {*/
+/*   text-align: right;*/
+/* }*/
+
+/*.checkout-text {*/
+/*    margin-top: 40px;*/
+/*    margin-left: 50px;*/
+/*    margin-bottom:20px;*/
+/*   }*/
+/* .checkout-view {*/
+/*   display: flex;*/
+/*   flex-direction: column;*/
+/*    border: 1px solid black;border-radius: 10px;*/
+/*  }*/
+
+/* ConfirmationPage.css */
+
+/* ConfirmationPage.css */
+
+.confirmationView {
+    display: flex;
+    flex-direction: column;
+
+    margin: 1em auto;
+    max-width: 600px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f8f8f8; /* Light background color */
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+ul > li {
+    margin: 1em;
+}
+
+/* Style for customer information */
+#customerInfo {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+/* Add some styles to the table if needed */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2; /* Table header background color */
+}
+
+/* Media query for responsiveness */
+@media (max-width: 600px) {
+    .confirmationView {
+        width: 90%;
+    }
+}
+
+.table-heading {
+    font-family: Battambang;
+    color: #092BA0;
+}
+
+.table-contents {
+    font-family: Battambang;
+    color: black;
+}
+
+
+
